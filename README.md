@@ -7,9 +7,9 @@ The TIMELINE FOLLOWBACK (TLFB) is an interview-based assessment that was develop
 
 Requirements for Installation:
 ============
-1) Windows Web Server (IIS) with .NET Framework version 3.5 installed
-2) Microsoft SQL (MSSQL) Server (2005 or later)
-3) Any text editor (e.g. Microsoft Notepad, Notepad++, etc.)
+1. Windows Web Server (IIS) with .NET Framework version 3.5 installed
+2. Microsoft SQL (MSSQL) Server (2005 or later)
+3. Any text editor (e.g. Microsoft Notepad, Notepad++, etc.)
 
 Installation:
 ============
@@ -44,16 +44,16 @@ Installation:
 	
 TO ADD NEW USERS AND ADMINISTRATORS
 =================================== 
-1) Login using Administrator login credentials (e.g. those defined during installation)
-2) Click on the 'Admin Page' link in the top, left-hand corner
-3) Click on 'Users and Privileges' in the left array  
-4) Enter in a 'Login ID' and 'Password' and reenter the password for verification
-5) Choose the role you would like to assign to the login information from the drop down menu (either 'Administrator' or 'User')
-6) Press 'Submit'
+1. Login using Administrator login credentials (e.g. those defined during installation)
+2. Click on the 'Admin Page' link in the top, left-hand corner
+3. Click on 'Users and Privileges' in the left array  
+4. Enter in a 'Login ID' and 'Password' and reenter the password for verification
+5. Choose the role you would like to assign to the login information from the drop down menu (either 'Administrator' or 'User')
+6. Press 'Submit'
 
 TO EXPORT RESPONSES AND CURRENT USERS
 =====================================
-1) Login using Administrator login credentials (e.g. those defined during installation)
-2) Click on the 'Admin Page' link in the top, left-hand corner
-3) Click on 'Data Management' in the left array  
-4) Click on the appropriate links to either export responses or a listing of current users to MS Excel
+1. Login using Administrator login credentials (e.g. those defined during installation)
+2. Click on the 'Admin Page' link in the top, left-hand corner
+3. Click on 'Data Management' in the left array  
+4. Click on the appropriate links to either export responses or a listing of current users to MS Excel
