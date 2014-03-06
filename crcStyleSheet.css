@@ -1,0 +1,227 @@
+/* ================================
+    CSS STYLES FOR THE PORTAL STARTER KIT
+    v1.0, 10/2002
+   ================================
+*/
+
+/*  
+Sticky Footer Solution
+by Steve Hatcher 
+http://stever.ca
+http://www.cssstickyfooter.com
+*/
+
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+/* must declare 0 margins on everything, also for main layout components use padding, not 
+vertical margins (top and bottom) to add spacing, else those margins get added to total height 
+and your footer gets pushed down a bit more, creating vertical scroll bars in the browser */
+
+html, body
+{
+	height: 100%;
+}
+
+.bold
+{
+	font-weight:bold;	
+}
+
+.underline
+{
+	text-decoration:underline;	
+}
+
+#wrap
+{
+	min-height: 100%;
+}
+
+#main
+{
+	overflow: auto;
+	padding-bottom: 180px;
+}
+/* must be same height as the footer */
+
+#footer
+{
+	position: relative;
+	margin-top: -40px; /* negative value of footer height */
+	height: 40px;
+	clear: both;
+	background-color: #d4d0c7;
+}
+
+#footer span.footerText
+{
+	padding: 5px 20px;
+	font-size: 1.2em;
+	font-weight:bold;	
+}
+
+/*Opera Fix*/
+body:before
+{
+	/* thanks to Maleika (Kohoutec)*/
+	content: "";
+	height: 100%;
+	float: left;
+	width: 0;
+	margin-top: -32767px; /* thank you Erik J - negate effect of float*/
+}
+
+
+td#Header
+{
+	background-color: #990000;
+	color: white;
+	padding: 5px;
+	font-size: 20pt;
+	font-weight: bold;
+}
+td#Menu
+{
+	background-color: #E0E0E0;
+	padding: 3px;
+}
+td#Content
+{
+	padding: 10px;
+}
+
+body
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: "#000000";
+	margin: 0px;
+	background-color: #F9F9F9;
+}
+td, th, caption
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+}
+th
+{
+	background-color: #990000;
+	color: #FFFFFF;
+}
+
+.HomeHead
+{
+	color: #999966;
+	font-family: Verdana, Arial;
+	font-size: 20px;
+	font-weight: bold;
+	height: 35px;
+	text-align: left;
+	margin-left: 0px;
+}
+
+
+
+A.MenuUnselected, A.MenuUnselected:link, A.MenuUnselected:visited
+{
+	color: #990000;
+	font-family: Verdana, Helvetica, sans-serif;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 16px;
+	padding-left: 10px;
+}
+
+A.MenuUnselected:hover
+{
+	color: #FF0000;
+	text-decoration: underline;
+	padding-left: 10px;
+}
+
+A.MenuSelected
+{
+	color: #FF0000;
+	font-family: Verdana, Helvetica, sans-serif;
+	text-decoration: none;
+	font-size: 10px;
+	font-weight: bold;
+	line-height: 16px;
+	padding-left: 10px;
+}
+
+A.MenuSelected:hover
+{
+	color: #FF0000;
+	font-family: Verdana, Helvetica, sans-serif;
+	text-decoration: none;
+	padding-left: 10px;
+}
+
+
+
+
+
+.successMessage
+{
+	color: Green;
+}
+
+.errorMessage
+{
+	color: Red;
+}
+
+li
+{
+	margin: 7px 0px;
+}
+ol
+{
+	list-style-type: decimal;
+	list-style-position: inside;
+}
+
+ol#olInstr1
+{
+	font-weight: bold;
+	margin: 15px 0px 20px 15px;
+}
+
+ul
+{
+	list-style-type: disc;
+	list-style-position: inside;
+}
+
+ul.ulInstr2
+{
+	margin: 15px 0px 20px 15px;
+}
+
+ul.indent
+{
+	margin-left: 20px;
+}
+
+ul.verticalSpace
+{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+p.instrSubHdr
+{
+	font-size: 13pt;
+	color: #660033;
+}
+
+div#standards
+{
+	margin-left: 35px;
+}
