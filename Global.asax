@@ -1,1 +1,0 @@
-<%@ Application Inherits="calendar.Global" Language="VB" %>
