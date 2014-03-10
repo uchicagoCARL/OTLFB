@@ -7,7 +7,7 @@ The TIMELINE FOLLOWBACK (TLFB) is an interview-based assessment that was develop
 
 Requirements for Installation:
 ============
-1. Windows Web Server (IIS) with .NET Framework version 3.5 installed
+1. Windows Web Server (IIS) with .NET Framework version 3.5 installed and Full Trust enabled
 2. Microsoft SQL (MSSQL) Server (2005 or later)
 3. Any text editor (e.g. Microsoft Notepad, Notepad++, etc.)
 
@@ -34,6 +34,7 @@ Installation:
 	1. Copy the modified local directory (e.g. c:\OTLFB) and all its contents to your web server. Note: The web root directory is typically located in c:\inetpub\www\, so a possible location would be c:\inetpub\www\OTLFB\
 	2. Within IIS, configure a new website with its document root being the location from step 5a above, and assigning it to an application pool running .NET 2.0
 		1. For more information on creating websites within IIS, consult the following: http://technet.microsoft.com/en-us/library/cc772350(v=ws.10).aspx
+	3. IIS must be configured to allow this application to run with "Full Trust": http://technet.microsoft.com/en-us/library/cc753658(v=ws.10).aspx
 6. The Online TLFB (O-TLFB) is now set up and operational.  
 	1. Login with the following default credentials (be sure to change them after logging in)
 		1. Username: csadmin
