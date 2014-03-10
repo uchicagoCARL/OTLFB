@@ -57,7 +57,7 @@ CREATE TABLE [calendarsurvey].[dbo].[investigators](
 ) ON [PRIMARY]
 GO
 SET IDENTITY_INSERT [calendarsurvey].[dbo].[investigators] ON
-	INSERT [calendarsurvey].[dbo].[investigators] ([id], [role], [userName], [password]) VALUES (1, 21, N'csadmin', N'csadmin123')
+	INSERT [calendarsurvey].[dbo].[investigators] ([id], [role], [userName], [password], [confirmAnswer]) VALUES (1, 21, N'csadmin', N'csadmin123', 1)
 SET IDENTITY_INSERT [calendarsurvey].[dbo].[investigators] OFF
 
 
